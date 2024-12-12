@@ -189,6 +189,7 @@ h5{
 .nav .social-icons {
     display: flex;
     column-gap: 10px; /* Spacing between the icons */
+    justify-content: flex-end;
 }
 
 .nav .social-icons img {
@@ -458,6 +459,17 @@ h5{
     font-size: 14px;
     padding: 25px 25px;
     text-decoration: none;
+}
+
+.footer-flex .social-icons {
+    display: flex;
+    column-gap: 10px; /* Spacing between the icons */
+    justify-content: flex-end;
+}
+
+.footer-flex .social-icons img {
+    width:50;
+    height: 50px;
 }
 /*.The end of footer classes*/
 
